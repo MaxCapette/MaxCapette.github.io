@@ -143,6 +143,8 @@ aside li{
   main, aside{
     width: 100%;
     min-width: 358px;
+  }.hobbies{
+    justify-content: center;
   }
 }
 
