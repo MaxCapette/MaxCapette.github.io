@@ -132,9 +132,10 @@ aside li{
 .languages{
 	display: flex;
 	align-items: center;
+
 }
 
-@media (max-width: 900px) {
+@media (max-width: 730px) {
   .header{
 		flex-direction: column;
 	}
@@ -144,8 +145,12 @@ aside li{
   main, aside{
     width: 100%;
     min-width: 358px;
-  }.hobbies{
+  }
+  .hobbies, .languages{
     justify-content: center;
   }
+ .center{
+  text-align: center;
+ }
 }
 
