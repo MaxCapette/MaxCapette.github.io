@@ -70,7 +70,8 @@ header li{
 }
 
 .pacman{
-	width: 2%;
+	width: 5%;
+  min-width: 45px;
 }
 
 .apparte{
