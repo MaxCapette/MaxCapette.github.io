@@ -1,156 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');body{
-	font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
 }
-body{
-	background-color: #a3a2ab;
-	margin: 0 auto;
-	width: 95%;
+body {
+  background-color: #a3a2ab;
+  margin: 0 auto;
+  width: 95%;
 }
-h1{
-	font-size: 2rem;
+h1 {
+  font-size: 2rem;
 }
-h2{
-	font-size: 1.5rem;
-	
+h2 {
+  font-size: 1.5rem;
 }
-h3{
-font-size: 1.5rem;
-margin: 20px;
-padding: 5px;
-border-bottom: 1px solid #2f2d3a;
+h3 {
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 5px;
+  border-bottom: 1px solid #2f2d3a;
 }
-h4{
-	font-size: 1.4rem;
-	margin: 37px 0;
-	text-align: center;
-}
-
-
-h1, h2{
-	color: whitesmoke;
-	font-weight: 600;
-	text-shadow: 1px 1px 2px pink;
-}
-h3, h4{
-	color: #2f2d3a;
-	font-weight: 600;
-	text-shadow: 1px 1px 2px #6c6886;
+h4 {
+  font-size: 1.4rem;
+  margin: 37px 0;
+  text-align: center;
 }
 
+h1,
+h2 {
+  color: whitesmoke;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px pink;
+}
+h3,
+h4 {
+  color: #2f2d3a;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #6c6886;
+}
 
-
-.header{
-	display: flex;
+.header {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-	background-color: #2f2d3a;
-	padding: 10px;
+  background-color: #2f2d3a;
+  padding: 10px;
 }
 
-.profilPic{
-	border-radius: 50%;
-	width: 100px;
-	margin: 10px;
-	
+.profilPic {
+  border-radius: 50%;
+  width: 100px;
+  margin: 10px;
 }
 
-.social{
-	width: 20px;
-	margin: 5px;
+.social {
+  width: 20px;
+  margin: 5px;
 }
 
 header ul {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-header li{
-	display: flex;
-	align-items: center;
-	color: whitesmoke;
+header li {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
 }
 
-.pacman{
-	width: 5%;
+.pacman {
+  width: 5%;
   min-width: 45px;
 }
 
-.apparte{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: whitesmoke;
+.apparte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
 }
 
 .apparte p {
-	margin: 20px;
-	max-width: 80%;
-	font-family: 'Dancing Script', cursive;
-	font-size: 1.5rem;
-	font-weight: bold;
-	
+  margin: 20px;
+  max-width: 80%;
 }
 
-.container{
-	display: flex;
+.apparte strong {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2rem;
 }
 
-main, aside{
-	padding: 10px;
-
-	width: 50%;
-	border-left: 1px #050506;
-	background-color: whitesmoke;
+.container {
+  display: flex;
 }
 
-main li, aside li{
-	line-height: 1.5;
-	padding-bottom: 20px;
-}
-.xp{
-	font-weight: bold;
-	color: rgb(71, 71, 71);
-}
-.location{
-	color: #050506;
-}
-.flag{
-	width: 40px;
-	margin: 0 25px 0 0 ;
+main,
+aside {
+  padding: 10px;
+
+  width: 50%;
+  border-left: 1px #050506;
+  background-color: whitesmoke;
 }
 
-aside li{
-	color:#2f2d3a ;
+main li,
+aside li {
+  line-height: 1.5;
+  padding-bottom: 20px;
 }
-.hobbies{
-	display: flex;
+.xp {
+  font-weight: bold;
+  color: rgb(71, 71, 71);
 }
-.hobbie{
-	margin: 10px;
-	width: 36px;
+.location {
+  color: #050506;
+}
+.flag {
+  width: 40px;
+  margin: 0 25px 0 0;
 }
 
-.languages{
-	display: flex;
-	align-items: center;
+aside li {
+  color: #2f2d3a;
+}
+.hobbies {
+  display: flex;
+}
+.hobbie {
+  margin: 10px;
+  width: 36px;
+}
 
+.languages {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 730px) {
-  .header{
-		flex-direction: column;
-	}
-	.container{
-		flex-direction: column;
-	}
-  main, aside{
+  .header {
+    flex-direction: column;
+  }
+  .container {
+    flex-direction: column;
+  }
+  main,
+  aside {
     width: 100%;
     min-width: 358px;
   }
-  .hobbies, .languages{
+  .hobbies,
+  .languages {
     justify-content: center;
   }
- .center{
-  text-align: center;
- }
+  .center {
+    text-align: center;
+  }
 }
-
