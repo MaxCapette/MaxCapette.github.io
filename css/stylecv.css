@@ -6,6 +6,8 @@ body {
   background-color: #a3a2ab;
   margin: 0 auto;
   width: 95%;
+  max-width: 1000px;
+  min-width: 400px;
 }
 h1 {
   font-size: 2rem;
@@ -96,10 +98,10 @@ header li {
 main,
 aside {
   padding: 10px;
-
   width: 50%;
   border-left: 1px #050506;
   background-color: whitesmoke;
+  text-align: center;
 }
 
 main li,
@@ -124,6 +126,7 @@ aside li {
 }
 .hobbies {
   display: flex;
+  justify-content: center;
 }
 .hobbie {
   margin: 10px;
@@ -133,6 +136,7 @@ aside li {
 .languages {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 730px) {
@@ -142,16 +146,10 @@ aside li {
   .container {
     flex-direction: column;
   }
+
   main,
   aside {
     width: 100%;
     min-width: 358px;
-  }
-  .hobbies,
-  .languages {
-    justify-content: center;
-  }
-  .center {
-    text-align: center;
   }
 }
