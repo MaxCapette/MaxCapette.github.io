@@ -62,7 +62,7 @@ nav {
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 /* /HEADER */
-/* /\MAIN */
+/* MAIN */
 main {
   background-color: #f8f9fa;
   padding: 6rem 0;
@@ -104,12 +104,13 @@ h3{
 .projectCaption{
   font-size: 1.5rem;
   font-weight: 600;
-  
+  color: black !important;
   margin-bottom: 10px;
   margin-top: 20px;
 }
 .projectItem p{
   text-align: center;
+  color: black !important;
 }
 /* /Projects */
 /* /About */
@@ -162,3 +163,16 @@ footer{
 /* /MAIN */
 /* FOOTER */
 /* /FOOTER */
+
+
+.theme-dark {
+  color: white;
+  background-color: #2f2d3a;
+  --border-normal: 1px solid rgba(255, 255, 255, .2);
+  --color-bg: rgb(15, 15, 15);
+  --color-opacity: rgba(255, 255, 255, .1);
+}
+
+#theme-switch .icon-moon::before {
+  content: "\e906";
+}
