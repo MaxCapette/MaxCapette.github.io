@@ -2,9 +2,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-width: 450px;
 }
+.theme-dark {
+  color: white;
+  background-color: #211f28 !important;
+}
 
 /* NAVBAR */
-
 nav {
   position: fixed;
   padding-top: 0.5rem;
@@ -28,6 +31,17 @@ nav {
   list-style: none;
   color: rgba(255, 255, 255, 0.55);
   margin: 10px;
+}
+
+.btn {
+  background-color: #211f28;
+  border-radius: 50%;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.icon-sun {
+  content: "\e906";
 }
 
 /* /NAVBAR */
@@ -97,9 +111,11 @@ h3{
   background-color: white;
   width: 400px;
   margin: 10px;
+  border-radius: 1%;
 }
 .projectItem img{
   width: 100%;
+  border-radius: 1%;
 }
 .projectCaption{
   font-size: 1.5rem;
@@ -111,9 +127,10 @@ h3{
 .projectItem p{
   text-align: center;
   color: black !important;
+  margin: 10px;
 }
 /* /Projects */
-/* /About */
+/* About */
 .about{
   display: flex;
   flex-direction: column;
@@ -122,7 +139,7 @@ h3{
   background-color: #fff;
   padding-top: 50px;
 }
-/* /About */
+
 .timeline{
   display: flex;
   flex-direction: column;
@@ -157,32 +174,12 @@ h4{
 .text-muted{
   color: #6c757d 
 }
+/* /About */
+/* /MAIN */
+/* FOOTER */
 footer{
   text-align: center;
 }
-/* /MAIN */
-/* FOOTER */
 /* /FOOTER */
 
 
-.theme-dark {
-  color: white;
-  background-color: #2f2d3a;
-  --border-normal: 1px solid rgba(255, 255, 255, .2);
-  --color-bg: rgb(15, 15, 15);
-  --color-opacity: rgba(255, 255, 255, .1);
-}
-
-
-
-.btn {
-  background-color: black;
-  border: 0;
-  border-radius: 3px;
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
-}
-.icon-sun {
-  content: "\e906";
-}

@@ -1,6 +1,6 @@
 const theme = {
   // Fonction d'initialisation
-  init: function () {
+  init () {
       // Sélectionne le bouton avec l'ID "theme-switch" et l'attribue à theme.button
       theme.button = document.querySelector("#theme-switch");
 
@@ -9,7 +9,7 @@ const theme = {
   },
 
   // Fonction gérant le clic sur le bouton
-  handleClick: function () {
+  handleClick () {
       // Sélectionne l'élément <body> de la page et l'attribue à theme.body
       theme.body = document.querySelector("body");
       theme.main = document.querySelector("main");
@@ -25,4 +25,6 @@ const theme = {
 
 // Appelle la fonction d'initialisation pour mettre en place le bouton et les écouteurs d'événements
 theme.init();
+
+
 
