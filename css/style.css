@@ -173,6 +173,16 @@ footer{
   --color-opacity: rgba(255, 255, 255, .1);
 }
 
-#theme-switch .icon-moon::before {
+
+
+.btn {
+  background-color: black;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+.icon-sun {
   content: "\e906";
 }
