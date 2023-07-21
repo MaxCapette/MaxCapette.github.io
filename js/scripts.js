@@ -69,7 +69,8 @@ const theme = {
         theme.body = document.querySelector("body");
         theme.main = document.querySelector("main");
         theme.about = document.querySelector(".about");
-  
+     
+        
   
         // Ajoute ou supprime la classe "theme-dark" de l'élément <body> pour basculer entre les thèmes clair et sombre
         theme.body.classList.toggle("theme-dark");
