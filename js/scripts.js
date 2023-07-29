@@ -69,6 +69,7 @@ const theme = {
         theme.body = document.querySelector("body");
         theme.main = document.querySelector("main");
         theme.about = document.querySelector(".about");
+        
      
         
   
@@ -76,6 +77,7 @@ const theme = {
         theme.body.classList.toggle("theme-dark");
         theme.main.classList.toggle("theme-dark");
         theme.about.classList.toggle("theme-dark");
+    
     }
   };
   
